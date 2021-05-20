@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "@material-ui/core/Avatar";
+import  "./Posts.css"
 function Posts() {
   return (
     <div className="Posts__container">
@@ -28,7 +29,7 @@ function Posts() {
          {/* username : caption */}
 
          <h4 className="user__caption">
-             <strong>Username : Caption</strong>
+             <strong>Username : </strong>Friends for life!
          </h4>
       </div>
 
