@@ -30,7 +30,7 @@ function Posts({username, id, caption, imageUrl}) {
          {/* username : caption */}
 
          <h4 className="user__caption">
-             <strong>{username} : </strong>{caption}
+             <strong>{username} :</strong>{caption}
          </h4>
       
         </div>

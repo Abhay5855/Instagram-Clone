@@ -1,6 +1,4 @@
-.App {
-  height: 100vh;
-}
+
 * {
   margin: 0;
   padding:0;
@@ -15,4 +13,10 @@
   border-bottom:1px solid #DBDBDB;
   object-fit: contain;
   padding: 20px;
+}
+
+
+.App {
+  height: 100vh;
+  overflow-y:scroll;
 }

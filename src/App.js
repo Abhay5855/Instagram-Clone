@@ -8,11 +8,19 @@ function App() {
   const [posts, setPosts] = useState([]);
 
   const getPosts = () => {
-    db.collection("posts").onSnapshot((snapshot) => {
-      setPosts(snapshot.docs.map((doc) => doc.data()));
-    });
-  };
 
+     db.collection('posts').onSnapshot(snapshot => {
+
+      setPosts(snapshot.docs.map(doc => ({
+        
+        id:doc.id,
+        post:doc.data()
+
+      })));
+
+
+     })
+  }
   // useeffect for posts
   useEffect(() => {
     getPosts();
@@ -26,13 +34,12 @@ function App() {
         <Navbar />
       </div>
 
-      {posts.map((post) => (
+      {posts.map(({id,post}) => (
         <Posts
-          key={post.id}
-          username={post.username}
-          id={post.id}
+          key={id}
           imageUrl={post.imageUrl}
           caption={post.caption}
+          username={post.username}
         />
       ))}
     </div>
