@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Posts from "./components/Posts";
 import { db } from "./firebase";
+import Upload from "./components/Upload"
+
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -32,6 +34,11 @@ function App() {
     <div className="App">
       <div className="nav__bar">
         <Navbar />
+        
+      </div>
+
+      <div className="upload">
+        <Upload />
       </div>
 
       {posts.map(({id,post}) => (
