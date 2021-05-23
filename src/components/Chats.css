@@ -1,0 +1,18 @@
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fafafa;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.chat__messages {
+    flex: 1;
+}
+
+

@@ -1,0 +1,39 @@
+
+
+
+.TinderButtons {
+    
+    bottom:10vh;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+
+}
+
+
+.TinderButtons .MuiIconButton-root {
+   
+    background-color:white;
+
+}
+
+.replay {
+    padding:2vw !important;
+    color:rgb(204, 153, 58) !important;
+}
+
+.favor {
+    padding:2vw !important;
+    color:red !important;
+}
+
+.star {
+    color:lightblue !important;
+    padding:2vw !important;
+}
+
+.clear {
+    color:rgb(141, 182, 141) !important;
+    padding:2vw !important;
+}

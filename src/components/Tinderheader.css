@@ -1,0 +1,34 @@
+:root {
+    --border-color:#DBDBDB;
+}
+
+
+
+.icons1__container {
+    width:100%;
+    height:8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.tinder__logo {
+    height: 50px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+.header1__icon {
+
+    margin-left: 27px;
+    cursor: pointer;
+    
+}
+
+.header2__icon {
+  
+    margin-right: 27px;
+    cursor: pointer;
+}

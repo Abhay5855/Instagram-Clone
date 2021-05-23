@@ -6,17 +6,20 @@
 }
 
 
-.nav__bar {
 
-  width:100%;
-  height:4vw;
-  border-bottom:1px solid #DBDBDB;
-  object-fit: contain;
-  padding: 20px;
-}
 
 
 .App {
   height: 100vh;
-  overflow-y:scroll;
+  /* background:#000; */
+}
+
+
+.upload {
+  width:100%;
+  height:6.8vw;
+  border-bottom: 1px solid #DBDBDB;
+  object-fit: contain;
+  margin-bottom: 20px;
+  text-align: center;
 }

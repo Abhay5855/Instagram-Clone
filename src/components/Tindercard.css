@@ -1,0 +1,47 @@
+.card {
+
+    position: relative;
+    width:600px;
+    max-width:85vw;
+    height: 50vh;
+    padding:20px;
+    border-radius: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+
+}
+
+
+.card > h3 {
+    bottom:12px;
+    position: absolute;
+    color:white;
+
+
+
+}
+
+.card > h2 {
+    bottom:28px;
+    position: absolute;
+    color:white;
+
+
+
+}
+
+
+.cards__allcontains {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+   
+}
+
+.swipe {
+    position: absolute;
+}
