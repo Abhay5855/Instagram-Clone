@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./ChatScreen.css";
 import Avatar from "@material-ui/core/Avatar";
 import SendIcon from '@material-ui/icons/Send';
+
 function ChatScreen() {
 
   const [input,setInput] = useState('');
@@ -26,11 +27,20 @@ function ChatScreen() {
       message:"I love you"
     }
   ]);
+   
+
+ 
+
+
+
+
+
+
 
   const handleClick = (e) => {
 
-    e.preventDefault();
-    setMessages([...messages, {message: input}]);
+    e.preventDefault()
+    setMessages([...messages,{message: input}]);
     setInput('');
   }
 
@@ -38,7 +48,7 @@ function ChatScreen() {
 
   return (
     <div classname="chatscreen">
-      <p className="time">You matched with Rutkar </p>
+    
 
       {messages.map((message) =>
         message.name ? (
